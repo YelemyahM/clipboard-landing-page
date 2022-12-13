@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+}
+
+.top-section {
+  background: url(images/bg-header-mobile.png) top no-repeat;
+  background-size: cover;
+  padding-bottom: 170px;
+}
+
+.logo {
+  display: block;
+  width: auto;
+  margin: 0 auto 70px auto;
+  padding-top: 120px;
+}
+
+h1 {
+  font-weight: 700;
+  width: 95%;
+  text-align: center;
+  margin: 0 auto 20px auto;
+  color: hsl(210, 10%, 33%);
+}
+
+h2 {
+  font-weight: 700;
+  width: 65%;
+  color: hsl(210, 10%, 33%);
+  text-align: center;
+  margin: 0 auto 20px auto;
+}
+
+h3 {
+  font-weight: 700;
+  color: hsl(210, 10%, 33%);
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto 20px auto;
+}
+
+.subtitle {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto 20px auto;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  height: 135px;
+  justify-content: space-between;
+}
+
+.ios,
+.mac {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 82%;
+  height: 55px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 0 auto;
+  box-shadow: 1px 1px 1px #404040;
+  cursor: pointer;
+}
+
+.ios {
+  background: hsl(171, 66%, 44%);
+}
+
+.ios:hover {
+  transition: 0.3s;
+  background: #5dccbb;
+}
+
+.mac {
+  background: hsl(233, 100%, 69%);
+}
+
+.mac:hover {
+  transition: 0.3s;
+  background: #8896ff;
+}
+
+.section-track {
+  padding-bottom: 190px;
+}
+
+.section-track .wrap img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 55px;
+  width: 80%;
+}
+
+.wrap {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.section-track .wrap {
+  flex-direction: column;
+}
+
+.tracking-details div p {
+  text-align: center;
+}
+
+.tracking-details div {
+  margin-bottom: 55px;
+}
+
+.tracking-details div:last-child {
+  margin-bottom: 0;
+}
+
+.section-access {
+  padding-bottom: 135px;
+}
+
+.section-access img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.section-access p {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-workflow {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 170px;
+}
+
+.section-workflow > p {
+  margin-bottom: 90px;
+}
+
+.workflow {
+  margin-bottom: 60px;
+}
+
+.workflow:last-child {
+  margin-bottom: 0;
+}
+
+.workflow img {
+  margin-bottom: 45px;
+}
+
+.workflow-detail {
+  padding-bottom: 70px;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  justify-content: space-between;
+}
+
+.brands img {
+  display: block;
+  width: 37%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.section-download {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 170px;
+}
+
+.section-download > p {
+  margin-bottom: 45px;
+}
+
+.footer {
+  background: #f5f6f8;
+  padding: 50px 0;
+}
+
+.footer > img {
+  display: block;
+  width: 14%;
+  margin: 0 auto;
+}
+
+.footer-links {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  margin: 12px auto 12px;
+  width: fit-content;
+}
+
+.footer-links a:hover {
+  transition: .3s;
+  color: hsl(171, 66%, 44%);
+}
+
+.footer-links a:first-child {
+  margin-top: 0;
+}
+
+.footer-links a:last-child {
+  margin-bottom: 0;
+}
+
+.socials {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials svg:hover {
+  cursor: pointer;
+}
+
+.socials svg:hover path {
+  fill: hsl(171, 66%, 44%);
+}
