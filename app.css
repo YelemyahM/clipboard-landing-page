@@ -258,7 +258,7 @@ h3 {
 }
 
 .socials svg:hover path {
-  transition: .3s;
+  transition: 0.3s;
   fill: hsl(171, 66%, 44%);
 }
 
@@ -312,8 +312,8 @@ h3 {
   }
 
   .section-track .wrap img {
-  width: 80%;
-}
+    width: 80%;
+  }
 
   .tracking-details {
     display: flex;
@@ -394,6 +394,18 @@ h3 {
   .socials {
     width: 8%;
     align-items: center;
+  }
+
+  .order:nth-last-of-type(1) {
+    order: -1;
+  }
+
+  .order:nth-last-of-type(3) {
+    order: -1;
+  }
+
+  .order:nth-last-of-type(5) {
+    order: -1;
   }
 }
 
