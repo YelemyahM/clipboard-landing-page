@@ -352,6 +352,10 @@ h3 {
     margin-bottom: 0;
   }
 
+  .workflow:first-child img {
+    margin-bottom: 37px;
+  }
+
   .brands {
     flex-direction: row;
   }
